@@ -5,7 +5,7 @@ $text-color: #fff;
 $link-color: #fff;
 $product-button-bg: #44bd32;
 $product-button-hover: #4cd137;
-$body-text-color: #000; // Cor padrão para o texto do body, não definido no CSS original
+$body-text-color: #000;
 
 // Fontes
 $font-stack-roboto: 'Roboto', sans-serif;
@@ -25,5 +25,5 @@ $product-button-border-radius: 8px;
 $product-item-margin-bottom-mobile: 32px;
 
 // Breakpoints
-$breakpoint-tablet: 1023px; // max-width para tablet
-$breakpoint-mobile: 767px;  // max-width para mobile
+$breakpoint-tablet: 1023px;
+$breakpoint-mobile: 767px;

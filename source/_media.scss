@@ -1,4 +1,4 @@
-@use 'variables' as v; // Importa variáveis com alias 'v'
+@use 'variables' as v;
 
 @media screen and (max-width: v.$breakpoint-tablet) {
     .container {
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: v.$breakpoint-mobile) {
     .products {
-        display: block; /* Volta para display block para empilhar */
+        display: block;
     }
 
     .product-item  {

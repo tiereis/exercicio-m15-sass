@@ -1,4 +1,4 @@
-@use 'variables' as v; // Importa variáveis com alias 'v'
+@use 'variables' as v;
 
 .products {
     margin-top: v.$products-margin-top;

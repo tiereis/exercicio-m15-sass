@@ -1,4 +1,4 @@
-@use 'variables' as v; // Importa variáveis com alias 'v'
+@use 'variables' as v;
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 
 body {
     background-color: v.$background-color;
-    color: v.$body-text-color; // Usando a variável definida
+    color: v.$body-text-color;
 }
 
 li {
