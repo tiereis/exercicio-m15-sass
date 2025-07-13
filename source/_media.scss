@@ -1,0 +1,22 @@
+@use 'variables' as v; // Importa variáveis com alias 'v'
+
+@media screen and (max-width: v.$breakpoint-tablet) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (max-width: v.$breakpoint-mobile) {
+    .products {
+        display: block; /* Volta para display block para empilhar */
+    }
+
+    .product-item  {
+        margin-bottom: v.$product-item-margin-bottom-mobile;
+    }
+}

@@ -1,0 +1,29 @@
+// Cores
+$background-color: #f5f6fa;
+$header-bg-color: #182C61;
+$text-color: #fff;
+$link-color: #fff;
+$product-button-bg: #44bd32;
+$product-button-hover: #4cd137;
+$body-text-color: #000; // Cor padrão para o texto do body, não definido no CSS original
+
+// Fontes
+$font-stack-roboto: 'Roboto', sans-serif;
+
+// Espaçamentos e Medidas
+$container-max-width: 1024px;
+$header-padding-y: 16px;
+$menu-item-margin-left: 24px;
+$section-padding-y: 56px;
+$products-margin-top: 40px;
+$product-grid-column-gap: 1%;
+$product-grid-row-gap: 4%;
+$product-item-img-border-radius: 16px;
+$product-button-padding-y: 8px;
+$product-button-margin-top: 8px;
+$product-button-border-radius: 8px;
+$product-item-margin-bottom-mobile: 32px;
+
+// Breakpoints
+$breakpoint-tablet: 1023px; // max-width para tablet
+$breakpoint-mobile: 767px;  // max-width para mobile

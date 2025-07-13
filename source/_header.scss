@@ -1,0 +1,29 @@
+@use 'variables' as v; // Importa variáveis com alias 'v'
+
+header {
+    background-color: v.$header-bg-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: v.$header-padding-y 0;
+    }
+}
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: v.$menu-item-margin-left;
+
+        a {
+            color: v.$link-color;
+            text-decoration: none;
+        }
+    }
+}
